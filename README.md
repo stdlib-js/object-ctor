@@ -41,7 +41,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@esm/index.mjs';
+import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@v0.0.1-esm/index.mjs';
 ```
 
 #### Object( value )
@@ -496,7 +496,7 @@ var arr = Object.values( o );
 <body>
 <script type="module">
 
-import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@esm/index.mjs';
+import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@v0.0.1-esm/index.mjs';
 
 var values = [
     '5',
