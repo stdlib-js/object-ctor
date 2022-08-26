@@ -41,6 +41,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/object-ctor/tags). For example,
+
+```javascript
 import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@v0.0.1-esm/index.mjs';
 ```
 
@@ -496,7 +501,7 @@ var arr = Object.values( o );
 <body>
 <script type="module">
 
-import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@v0.0.1-esm/index.mjs';
+import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@esm/index.mjs';
 
 var values = [
     '5',
