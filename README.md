@@ -41,7 +41,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@deno/mod.js';
+import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@v0.0.1-deno/mod.js';
 ```
 
 #### Object( value )
@@ -491,7 +491,7 @@ var arr = Object.values( o );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@deno/mod.js';
+import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@v0.0.1-deno/mod.js';
 
 var values = [
     '5',
