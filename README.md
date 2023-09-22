@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/object-ctor/tags). For example,
+
+```javascript
 import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@v0.1.0-deno/mod.js';
 ```
 
@@ -501,7 +506,7 @@ var arr = Object.values( o );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@v0.1.0-deno/mod.js';
+import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@deno/mod.js';
 
 var values = [
     '5',
