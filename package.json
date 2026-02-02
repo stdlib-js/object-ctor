@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/object-ctor",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Object constructor.",
   "license": "Apache-2.0",
   "author": {
@@ -66,7 +66,6 @@
     "constructor",
     "ctor"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
